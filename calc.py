@@ -17,7 +17,6 @@ while True:
             resultado = num1 + num2
             print(resultado)
             input("Pressione enter para voltar ao menu inicial.")
-    
     if opcao == "2":
             print("A opção escolhida foi subtração.")
             input("Pressione ENTER para continuar.")
@@ -26,3 +25,11 @@ while True:
             resultado = num1 - num2
             print(resultado)
             input("Pressione enter para voltar ao menu inicial.")
+    if opcao == "3":
+        print("A opção escolhida foi multiplicação.")
+        input("Pressione ENTER para continuar.")
+        num1 = float(input("Digite o primeiro número: "))
+        num2 = float(input("Digite o segundo número: "))
+        resultado = num1 * num2
+        print(resultado)
+        input("Pressione enter para voltar ao menu inicial.")
