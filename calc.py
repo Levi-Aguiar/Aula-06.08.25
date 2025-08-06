@@ -8,3 +8,12 @@ while True:
     print("5- Sair")
 
     opcao = input("Digite o número da opção desejada:")
+    
+    if opcao == "1":
+            print("A opção escolhida foi soma.")
+            input("Pressione ENTER para continuar.")
+            num1 = float(input("Digite o primeiro número: "))
+            num2 = float(input("Digite o segundo número: "))
+            resultado = num1 + num2
+            print(resultado)
+            input("Pressione enter para voltar ao menu inicial.")
